@@ -14,6 +14,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-background);
+    color: white;
 }
 
 header {
@@ -52,5 +53,39 @@ nav span:nth-child(1){
 
 .icon {
     color: #FF5C2F;
-    
+    width: 25px;
+    height: 25px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    height: 100%;
+}
+
+.imagem {
+    width: 300px;
+    height: 400px;
+    box-sizing: border-box;
+    border-top: solid 2px #FF5C2F;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.mensagem {
+    max-width: 400px;
+}
+
+.titulo {
+    font-size: 3em;
+}
+
+.descricao {
+    text-indent: 24px;
 }
