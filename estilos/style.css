@@ -9,5 +9,35 @@
     --cor-destaque: #FF5C2F;
     --cor-header: #1E252E;
     --cor-background: #202430;
-    --font-app: arial sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px;
+    background-color: var(--cor-header);
+}
+
+.logo{
+    font-size: 2.2em;
+    color: white;
+}
+/*
+header img {
+    width: 100px;
+    height: 50px;
+}
+*/
+nav {
+    color: white;
+}
+
+nav span{
+    margin-left: 12px;
 }
