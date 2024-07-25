@@ -12,7 +12,7 @@
 }
 
 body {
-    width: 93.75vw;
+    width: 96vw;
     height: 96vh;
     font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor-background);
@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    width: 100%;
+    width: 97.2%;
     height: 65px;
     display: flex;
     justify-content: space-between;
@@ -74,18 +74,35 @@ section {
 }
 
 .imagem {
-    width: 300px;
-    height: 400px;
-    box-sizing: border-box;
+    width: calc(max-content + 20px);
+    height: max-content;
+    background-image: linear-gradient(to left top, rgba(228, 227, 227, 0.247), rgba(95, 95, 95, 0.178), var(--cor-background));
     border-top: solid 2px #FF5C2F;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+    border-radius: 6px 6px 48px 48px;
+    box-shadow: 12px 6px 12px rgba(0, 0, 0, 0.342);
+}
+
+div.imagem img {
+    border-radius: 0px 0px 48px 48px;
 }
 
 .mensagem {
+    margin-top: 24px;
+    height: 60px;
     margin-left: 24px;
     max-width: 600px;
     text-align: justify;
+}
+
+.mensagem aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#oi {
+    font-weight: bold;
 }
 
 .titulo {
@@ -99,6 +116,16 @@ div.titulo span {
 
 .descricao {
     text-indent: 24px;
+}
+
+.redes {
+    margin-top: 48px;
+    margin-left: 24px;
+    padding: 6px;
+    border-radius: 12px;
+    border: solid 1px #FF5C2F;
+    width: 40px;
+    height: 40px;
 }
 
 footer {
