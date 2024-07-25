@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --cor-destaque: #FF5C2F;
+    --cor-header: #1E252E;
+    --cor-background: #202430;
+    --font-app: arial sans-serif;
+}
