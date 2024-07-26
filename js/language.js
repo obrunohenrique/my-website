@@ -6,6 +6,9 @@ function ParseEnglish() {
 
         toggle.innerHTML = "toggle_on"
 
+        let projects = document.getElementById("projects")
+        projects.innerHTML = "Projects"
+
         let hi = document.getElementById('oi')
         hi.innerHTML = "Hi, I'm"
 
@@ -17,6 +20,9 @@ function ParseEnglish() {
     } else {
     
         toggle.innerHTML = "toggle_off"
+
+        let projects = document.getElementById("projects")
+        projects.innerHTML = "Projetos"
 
         let hi = document.getElementById('oi')
         hi.innerHTML = "Oi, eu sou"

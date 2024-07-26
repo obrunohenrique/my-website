@@ -1,68 +1,9 @@
 @charset "UTF-8";
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
 :root {
     --cor-destaque: #FF5C2F;
     --cor-header: #1E252E;
     --cor-background: #202430;
-}
-
-body {
-    width: 96vw;
-    height: 96vh;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: var(--cor-background);
-    color: white;
-}
-
-header {
-    width: 97.2%;
-    height: 65px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 48px;
-    background-color: var(--cor-header);
-    box-shadow: 0px 3px 6px rgba(255, 255, 255, 0.166);
-}
-
-.logo{
-    font-weight: bold;
-    font-size: 1.5em;
-    color: white;
-}
-
-nav {
-    color: white;
-}
-
-nav span{
-    margin-left: 24px;
-}
-
-nav span:hover{
-    color: #ff5c2f98;
-    transition: 250ms;
-}
-
-nav span:nth-child(1){
-    margin-left: 24px;
-    color: #FF5C2F;
-    font-weight: bold;
-}
-
-.icon {
-    color: #FF5C2F;
-    width: 25px;
-    height: 25px;
-}
-
-.clickable {
-    cursor: pointer;
 }
 
 main {
@@ -132,6 +73,10 @@ div.titulo span {
     height: 30px;
 }
 
+.redes:hover {
+    box-shadow: 3px 3px 6px #ff5c2f88;
+}
+
 footer {
     display: flex;
     direction: row;
@@ -139,11 +84,11 @@ footer {
     align-items: center;
 }
 
-a {
+footer a {
     text-decoration: none;
     color: white;
 }
 
-a:hover {
+footer a:hover {
     text-decoration: underline;
 }
