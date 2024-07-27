@@ -16,7 +16,8 @@ main {
     align-items: center;
 }
 
-section {
+.center {
+    height: max-content;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -82,10 +83,10 @@ div.titulo span {
 }
 
 footer {
-    display: flex;
-    direction: row;
-    justify-content: center;
-    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 1000;
+    text-align: center;
 }
 
 footer a {
