@@ -7,6 +7,7 @@
 }
 
 main {
+    flex: 1;
     align-self: center;
     height: 100%;
     width: 100%;
@@ -83,6 +84,7 @@ div.titulo span {
 }
 
 footer {
+    width: 100%;
     position: fixed;
     bottom: 0;
     z-index: 1000;
