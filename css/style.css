@@ -7,9 +7,9 @@
 }
 
 main {
+    padding: 0px 48px;
     flex: 1;
     align-self: center;
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -75,8 +75,8 @@ div.titulo span {
     padding: 6px;
     border-radius: 12px;
     border: solid 1px #FF5C2F;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .redes:hover {
@@ -85,9 +85,7 @@ div.titulo span {
 
 footer {
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    z-index: 1000;
+    padding: 10px 0;
     text-align: center;
 }
 
