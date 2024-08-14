@@ -15,23 +15,29 @@
 </head>
 <body>
     <header>
-        <span class="logo">BrunoHFP</span>
-        
-        <nav>
-            <a href="#">Home</a>
-            <a  id="projects" href="#">Projetos</a>
-            <a href="#">No-code</a>
+        <nav>   
+            <a class="logo" href="#">BrunoHFP</a>
+
+            <div class="mobile-menu" onclick="show_navbar()">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+                <ul class="nav-list">
+                    <li class="home"><a href="#">Home</a></li>
+                    <li><a  id="projects" href="#">Projetos</a></li>
+                    <li><a href="#">No-code</a></li>
+                </ul>
+
+                <div onclick="ParseEnglish()" class="clickable">
+                    <span><img class="icon" src="imagens/brasil.png" alt="Bandeira do Brasil - lingua portuguesa"></span>
+                    <span class="material-symbols-outlined icon" id="toggle">
+                        toggle_off
+                    </span>
+                    <span><img class="icon" src="imagens/estados-unidos.png" alt="Bandeira dos Estados Unidos - lingua Inglesa"></span>
+                </div>
         </nav>
-
-        <div onclick="ParseEnglish()" class="clickable">
-            <span><img class="icon" src="imagens/brasil.png" alt="Bandeira do Brasil - lingua portuguesa"></span>
-
-            <span class="material-symbols-outlined icon" id="toggle">
-                toggle_off
-            </span>
-
-            <span><img class="icon" src="imagens/estados-unidos.png" alt="Bandeira dos Estados Unidos - lingua Inglesa"></span>
-        </div>
     </header>
     <main>
 
@@ -64,5 +70,6 @@
     </footer>
 
     <script src="js/language.js"></script>
+    <script src="js/mobile-navbar.js"></script>
 </body>
 </html>
