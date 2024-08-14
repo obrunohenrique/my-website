@@ -16,13 +16,6 @@ main {
   width: 100%;
 }
 
-/* Footer */
-footer {
-  width: 100%;
-  padding: 10px 0;
-  text-align: center;
-}
-
 /* Other styles */
 .center {
   display: flex;
@@ -91,13 +84,4 @@ div.titulo span {
 
 .redes:hover {
   box-shadow: 3px 3px 6px #ff5c2f88;
-}
-
-footer a {
-  text-decoration: none;
-  color: white;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
