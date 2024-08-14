@@ -10,6 +10,10 @@ h1 {
   font-size: 2.5em;
 }
 
+.mensagem.invert .descricao{
+  margin-bottom: 24px;
+}
+
 .descricao {
   margin-top: 6px;
 }
@@ -22,6 +26,7 @@ h1 {
 .redes {
   margin-top: 24px;
   margin-left: 0px;
+  margin-right: 0px;
 
   width: 40px;
   height: 40px;

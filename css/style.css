@@ -21,6 +21,13 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin-bottom: 48px;
+}
+
+.center:nth-child(1) {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .imagem {
@@ -41,11 +48,24 @@ div.imagem img {
   border-radius: 0px 0px 48px 48px;
 }
 
+.card {
+  height: 250px;
+  width: 250px;
+}
+
 .mensagem {
   margin-top: 24px;
   margin-left: 24px;
   max-width: 600px;
   text-align: justify;
+}
+
+.mensagem.projeto {
+  max-width: 450px;
+}
+
+.mensagem.invert {
+  margin-right: 24px;
 }
 
 .mensagem aside {
@@ -62,6 +82,7 @@ div.imagem img {
 h1 {
   font-size: 3em;
   font-weight: bolder;
+  margin-bottom: 12px;
 }
 
 div.titulo span {
@@ -70,6 +91,19 @@ div.titulo span {
 
 .descricao {
   text-indent: 24px;
+}
+
+.repository {
+  margin-top: 12px;
+  font-weight: 600;
+}
+
+.repository a{
+  transition: .3s;
+}
+
+.repository a:hover {
+  color: #ff5c2f;
 }
 
 .redes {
