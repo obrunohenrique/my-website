@@ -1,76 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
-
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/mobile.css" media="screen and (max-width: 846px)">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>BrunoHFP</title>
+    <title>Bruno Henrique</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <header>
-        <nav>   
-            <a class="logo" href="#">BrunoHFP</a>
-
-            <div class="mobile-menu" onclick="show_navbar()">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-
-                <ul class="nav-list">
-                    <li class="home"><a href="#">Home</a></li>
-                    <li><a  id="projects" href="#">Projetos</a></li>
-                    <li><a href="#">No-code</a></li>
-                </ul>
-
-                <div onclick="ParseEnglish()" class="clickable">
-                    <span><img class="icon" src="imagens/brasil.png" alt="Bandeira do Brasil - lingua portuguesa"></span>
-                    <span class="material-symbols-outlined icon" id="toggle">
-                        toggle_off
-                    </span>
-                    <span><img class="icon" src="imagens/estados-unidos.png" alt="Bandeira dos Estados Unidos - lingua Inglesa"></span>
-                </div>
-        </nav>
-    </header>
-    <main>
-
-        <section class="center">
-            <div class="imagem">
-                <img src="imagens/foto-semfundo-edit.png" alt="Foto frontal ao rosto">
-            </div>
-            <div class="mensagem">
-                <div id="oi">
-                    Oi, eu sou
-                </div>
-                <div class="titulo">
-                    <h1><span>Bruno</span> Henrique</h1>
-                </div>
-                <div class="descricao">
-                    Sou desenvolvedor web/front-end, estudante de Sistemas de Informação na UFPE e aluno do FAP-Softex. Com ampla experiência em trabalho em equipe, destaco-me pela minha capacidade de adaptação a novos ambientes e desafios.
-                    Atuo como desenvolvedor web freelancer utilizando tecnologia no-code desde novembro de 2023. Trabalhei em diversos projetos que me proporcionaram experiência profissional na gestão de demandas, UI/UX e desenvolvimento/idealização de processos de negócios.
-                </div>
-                <aside>
-                    <div><a rel="external" target="_blank" href="https://www.github.com/obrunohenrique"><img class="redes" src="imagens/developer.png" alt="icone do github"></a></div>
-                    <div><a rel="external" target="_blank" href="https://www.linkedin.com/in/brunohfp/"><img class="redes" src="imagens/linkedin.png" alt="icon do linkedin"></a></div>
-                    <div><a rel="external" target="_blank" href="https://www.instagram.com/obrunohq/"><img class="redes" src="imagens/instagram.png" alt="icon Instagram"></a></div>
-                </aside>
+    <div class="background-photo">
+        <div class="cover">
+            <header>
+                <nav class="nav-bar">
+                    <ul class="menu-header">
+                        <li id="mark">Home</li>
+                        <li><a href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section class="profile">
+                    <img class="photo-profile" src="assets/img/profile-photo.jpg" alt="foto bruno">
+                    <div class="about-me">
+                        <h1>Bruno Henrique</h1>
+                        <ul class="ul-profile">
+                            <li>👨‍💻Front-end developer</li>
+                            <li>📚 Information Systems Student at Federal University of Pernambuco.</li>
+                        </ul>
+                        <div class="container-redes">
+                            <a rel="external" target="_blank" href="https://github.com/obrunohenrique"><img class="redes" src="./assets/img/github.png" alt="github logo"></a>
+                            <a rel="external" target="_blank" href="https://www.linkedin.com/in/brunohfp/"><img class="redes" src="./assets/img/linkedin.png" alt="linkedin logo"></a>
+                            <a rel="external" target="_blank" href="https://www.instagram.com/obrunohq/"><img class="redes" src="./assets/img/instagram.png" alt="instagram logo"></a>
+                        </div>
+                    </div>
+                </section>
+        </div>
+    </div>
+        <section id="projetos"></section>
+        <section id="technologies">
+            <h1>I code with</h1>
+            <div class="container-technologies">
+                <img src="https://img.shields.io/badge/React-202430?logo=react&logoColor=white&style=for-the-badge" height="30" alt="react logo"  />
+                
+                <img src="https://img.shields.io/badge/TypeScript-202430?logo=typescript&logoColor=white&style=for-the-badge" height="30" alt="typescript logo"  />
+                
+                <img src="https://img.shields.io/badge/JavaScript-202430?logo=javascript&logoColor=white&style=for-the-badge" height="30" alt="javascript logo"  />
+                
+                <img src="https://img.shields.io/badge/CSS3-202430?logo=css3&logoColor=white&style=for-the-badge" height="30" alt="css3 logo"  />
+                
+                <img src="https://img.shields.io/badge/HTML5-202430?logo=html5&logoColor=white&style=for-the-badge" height="30" alt="html5 logo"  />
+                
+                <img src="https://img.shields.io/badge/Tailwind CSS-202430?logo=tailwindcss&logoColor=white&style=for-the-badge" height="30" alt="tailwindcss logo"  />
+                
+                <img src="https://img.shields.io/badge/Git-202430?logo=git&logoColor=white&style=for-the-badge" height="30" alt="git logo"  />
+                
+                <img src="https://img.shields.io/badge/Python-202430?logo=python&logoColor=white&style=for-the-badge" height="30" alt="python logo"  />
             </div>
         </section>
-
     </main>
     <footer>
-        &#169; Site feito por mim - <a rel="external" target="_blank" href="https://www.linkedin.com/in/brunohfp/"> @brunohenrique</a>
-    </footer>
-
-    <script src="js/language.js"></script>
-    <script src="js/mobile-navbar.js"></script>
+        <div class="container-redes-footer">
+            <a rel="external" target="_blank" href="https://github.com/obrunohenrique"><img class="redes-footer" src="./assets/img/github.png" alt="github logo"></a>
+            <a rel="external" target="_blank" href="https://www.linkedin.com/in/brunohfp/"><img class="redes-footer" src="./assets/img/linkedin.png" alt="linkedin logo"></a>
+            <a rel="external" target="_blank" href="https://www.instagram.com/obrunohq/"><img class="redes-footer" src="./assets/img/instagram.png" alt="instagram logo"></a>
+        </div>
+        &copy; 2024 Bruno Henrique.</footer>
 </body>
 </html>

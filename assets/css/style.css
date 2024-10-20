@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-destaque: #ff5c2f;
+    --cor-background: #1e252e;
+    --cor-sobreposicao: #202430;
+    --cor-fonte: #fff;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, var(--cor-background), var(--cor-sobreposicao));
+    color: var(--cor-fonte);
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+}
+
+.background-photo {
+    background: url("../img/fundo-profile.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+.cover{
+    background-image: linear-gradient(to bottom, #1e252e98, #1e252e);
+}
+
+.nav-bar {
+    padding: 24px;
+    height: 12vh;
+    text-align: center;
+}
+
+.menu-header{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.menu-header a{
+    font-size: .8em;
+    text-decoration: none;
+    color: var(--cor-fonte);
+}
+
+.menu-header a:visited {
+    color: var(--cor-fonte);
+}
+
+.menu-header li#mark {
+    color: var(--cor-destaque);
+}
+
+.menu-header li:hover {
+    cursor: pointer;
+}
+
+.profile {
+    padding: 96px 48px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    width: 100%;
+}
+
+.ul-profile {
+    text-indent: 1rem;
+    list-style-type: none;
+}
+
+.photo-profile {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2rem;
+    color: var(--cor-destaque);
+}
+
+.container-redes {
+    padding: 12px;
+    
+    display: flex;
+    justify-content: flex-start;
+    gap: 12px;
+}
+
+.redes {
+    width: 30px;
+}
+
+.redes:hover{
+    cursor: pointer;
+    opacity: 80%;
+}
+
+#technologies {
+    padding: 96px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.container-technologies {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.container-technologies img {
+    border: 1px solid var(--cor-fonte);
+    border-radius: 12rem;
+}
+
+footer {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.container-redes-footer {
+    display: flex;
+    justify-content: center;
+    gap: .8rem;
+    margin-bottom: .5rem;
+}
+
+.redes-footer {
+    width: 22px;
+}
+
+.redes-footer:hover {
+    opacity: 80%;
+}
