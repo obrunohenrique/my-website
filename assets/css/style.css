@@ -311,8 +311,3 @@ footer {
         width: 250px;
     }
 }
-
-.photo-profile,
-.about-me {
-    visibility: hidden;
-}
