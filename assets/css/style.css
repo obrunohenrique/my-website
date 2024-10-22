@@ -289,6 +289,7 @@ footer {
     .item-project {
         flex-wrap: wrap;
         border-radius: 4rem;
+        padding: 20px 24px;
     }
     
     .links-projects {
@@ -309,4 +310,9 @@ footer {
     .photo-profile{
         width: 250px;
     }
+}
+
+.photo-profile,
+.about-me {
+    visibility: hidden;
 }
